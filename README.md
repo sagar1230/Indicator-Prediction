@@ -1,6 +1,8 @@
 # Indicator-Prediction
 Uses linear regression to predict future stock prices and applies moving average indicators to the prediction to get early trade signals.
 
+As these are lagging indicators, a signal in the prediction period can be acted on early. All past signals are also shown below.
+
 ![Example](https://github.com/sagar1230/Indicator-Prediction/blob/main/examples/AAPL_SMA.png)
 ![Example](https://github.com/sagar1230/Indicator-Prediction/blob/main/examples/FB_SMA.png)
 
